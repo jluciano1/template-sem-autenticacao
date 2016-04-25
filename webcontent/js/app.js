@@ -38,6 +38,12 @@ var app = (function() {
         // Set up the states
         $stateProvider
           
+          .state('login', {
+            url: "",
+            controller: 'HomeController',
+            templateUrl: 'views/logged/home.view.html'
+          })
+          
           .state('home', {
             url: "/home",
             controller: 'HomeController',

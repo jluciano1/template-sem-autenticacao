@@ -31,7 +31,7 @@
                 // It's not working with sessionStorage
             }
             
-            $state.go("login");
+            $state.go("home");
         }
 
 
