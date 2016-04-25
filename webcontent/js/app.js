@@ -41,13 +41,13 @@ var app = (function() {
           .state('login', {
             url: "",
             controller: 'HomeController',
-            templateUrl: 'views/logged/home.view.html'
+            templateUrl: 'views/home.view.html'
           })
           
           .state('home', {
             url: "/home",
             controller: 'HomeController',
-            templateUrl: 'views/logged/home.view.html'
+            templateUrl: 'views/home.view.html'
           })
 
           .state('home.pages', {
