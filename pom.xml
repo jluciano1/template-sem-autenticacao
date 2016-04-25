@@ -153,5 +153,6 @@
         <project.cronospass.resource mimetype="folder/web">webcontent</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/servercontext">config</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">src</project.cronospass.resource>
+        <project.cronospass.resource mimetype="folder/libs">lib</project.cronospass.resource>
     </properties>
 </project>
